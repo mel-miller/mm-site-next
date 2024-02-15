@@ -9,13 +9,7 @@ const meta = {
   parameters: {
     layout: 'fullscreen',
   },
-  argTypes: {
-    containerWidth: {
-      control: {
-        type: 'select',
-      },
-    },
-  },
+  argTypes: {},
 } satisfies Meta<typeof Page>;
 
 export default meta;
@@ -24,7 +18,5 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     pathname: '/blog',
-    showBreadcrumb: true,
-    pageTitle: 'Hello!',
   },
 };

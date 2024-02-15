@@ -17,12 +17,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <Page
-          pathname={pathname ?? undefined}
-          showBreadcrumb={pathname === '/' ? false : true}
-        >
-          {children}
-        </Page>
+        <Page pathname={pathname ?? undefined}>{children}</Page>
       </body>
     </html>
   );

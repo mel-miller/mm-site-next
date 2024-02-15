@@ -28,6 +28,9 @@ export async function generateMetadata({ params }: Props) {
 export default async function Post({ params }: Props) {
   const postData: PostData = await getPostData(params.id);
   const tags = postData.tags?.join(', ');
+
+  console.log(postData.title);
+
   return (
     <div>
       <h1>{postData.title}</h1>
