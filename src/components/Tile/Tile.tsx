@@ -26,10 +26,6 @@ export interface TileProps {
 	 */
 	subhead: string;
 	/**
-	 * Optional tags.
-	 */
-	tags?: string[];
-	/**
 	 * Optional additional class names.
 	 */
 	className?: string;
@@ -43,18 +39,11 @@ export const Tile = ({
 	image,
 	link,
 	subhead,
-	tags,
 	className,
 	...props
 }: TileProps) => {
 	// Set up classes.
 	const baseClass = 'mm-tile';
-
-	const popoverContent = (
-		<div className={`${baseClass}__tags`}>
-			<SiteTags siteTags={tags || []} />
-		</div>
-	);
 
 	// Render the output.
 	return (
@@ -71,16 +60,6 @@ export const Tile = ({
 					<p className={`${baseClass}__subhead`}>{subhead}</p>
 				</div>
 			</Link>
-			{tags && (
-				<Popover
-					content={popoverContent}
-					placement='bottom'
-					triggerBackground={true}
-					triggerIcon='tags'
-					triggerSize='lg'
-					className={`${baseClass}__tags-popover`}
-				/>
-			)}
 		</div>
 	);
 };

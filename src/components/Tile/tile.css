@@ -2,18 +2,13 @@
 	position: relative;
 	box-shadow: var(--mm-shadow-raised);
 	border-radius: var(--mm-radius-lg);
+	background-color: var(--mm-color-neutral-lightest);
 	text-align: center;
 	text-decoration: none;
 
 	&:hover {
 		box-shadow: var(--mm-shadow-active);
 	}
-}
-
-.mm-tile__tags-popover {
-	position: absolute;
-	top: var(--mm-spacing-sm);
-	right: var(--mm-spacing-sm);
 }
 
 .mm-tile__link {
