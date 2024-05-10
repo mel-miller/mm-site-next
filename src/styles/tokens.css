@@ -72,14 +72,14 @@
 	--mm-radius-sm: 0.125rem;
 
 	/* shadows */
-	--mm-shadow-active: 0px 0px 0px 1px rgba(0, 0, 0, 0.08),
+	--mm-shadow-active: 0px 0px 0px 1px rgba(0, 0, 0, 0.03),
 		0px 6px 14px 0px rgba(0, 0, 0, 0.08);
-	--mm-shadow-dropdown: 0px 1px 0px 1px rgba(0, 0, 0, 0.08),
+	--mm-shadow-dropdown: 0px 1px 0px 1px rgba(0, 0, 0, 0.03),
 		0px 6px 14px 0px rgba(0, 0, 0, 0.08);
-	--mm-shadow-overlay: 0px 0px 0px 1px rgba(0, 0, 0, 0.08),
+	--mm-shadow-overlay: 0px 0px 0px 1px rgba(0, 0, 0, 0.03),
 		0px 1px 1px 0px rgba(0, 0, 0, 0.02), 0px 8px 16px -4px rgba(0, 0, 0, 0.04),
 		0px 24px 32px -8px rgba(0, 0, 0, 0.06);
-	--mm-shadow-raised: 0px 0px 0px 1px rgba(0, 0, 0, 0.08),
+	--mm-shadow-raised: 0px 0px 0px 1px rgba(0, 0, 0, 0.03),
 		0px 2px 2px 0px rgba(0, 0, 0, 0.04), 0px 8px 8px -8px rgba(0, 0, 0, 0.04);
 
 	/* typography */
