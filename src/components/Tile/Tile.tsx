@@ -2,10 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import SiteTags from '../../tags/SiteTags';
-
-import { Popover } from '../Popover/Popover';
-
 import './tile.css';
 
 export interface TileProps {
