@@ -25,6 +25,10 @@ interface MainMenuProps {
 export const MainMenu = ({
 	menuItems = [
 		{
+			label: 'Portfolio',
+			url: '/portfolio',
+		},
+		{
 			label: 'About',
 			url: '/about',
 		},
