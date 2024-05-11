@@ -6,6 +6,10 @@ import './tile.css';
 
 export interface TileProps {
 	/**
+	 * Body text.
+	 */
+	body?: string;
+	/**
 	 * Heading text.
 	 */
 	heading: string;
@@ -18,10 +22,6 @@ export interface TileProps {
 	 */
 	link: string;
 	/**
-	 * Subhead text.
-	 */
-	subhead: string;
-	/**
 	 * Optional additional class names.
 	 */
 	className?: string;
@@ -31,10 +31,10 @@ export interface TileProps {
  * Tile UI component
  */
 export const Tile = ({
+	body,
 	heading,
 	image,
 	link,
-	subhead,
 	className,
 	...props
 }: TileProps) => {
@@ -53,7 +53,7 @@ export const Tile = ({
 				</div>
 				<div className={`${baseClass}__content`}>
 					<h3 className={`${baseClass}__heading`}>{heading}</h3>
-					<p className={`${baseClass}__subhead`}>{subhead}</p>
+					<p className={`${baseClass}__body`}>{body}</p>
 				</div>
 			</Link>
 		</div>

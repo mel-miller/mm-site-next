@@ -3,7 +3,6 @@
 	box-shadow: var(--mm-shadow-raised);
 	border-radius: var(--mm-radius-lg);
 	background-color: var(--mm-color-neutral-lightest);
-	text-align: center;
 	text-decoration: none;
 
 	&:hover {
@@ -37,19 +36,19 @@
 .mm-tile__content {
 	display: flex;
 	flex-direction: column;
-	padding: var(--mm-spacing-md) var(--mm-spacing-lg);
+	padding: var(--mm-spacing-lg) var(--mm-spacing-xl);
 }
 
 .mm-tile__heading {
 	margin: 0;
 	margin-block-end: var(--mm-spacing-xs);
-	font-weight: 600;
+	font-weight: 700;
 	font-size: var(--mm-spacing-xl);
 }
 
-.mm-tile__subhead {
+.mm-tile__body {
 	margin: 0;
-	color: var(--mm-color-typography-default-secondary);
+	color: var(--mm-color-typography-default);
 	font-size: var(--mm-spacing-md);
-	line-height: var(--mm-line-height-subhead);
+	line-height: var(--mm-line-height-text);
 }

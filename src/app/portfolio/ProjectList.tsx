@@ -21,7 +21,7 @@ export default function ProjectList() {
 					heading: title,
 					image: tileImage ?? '',
 					link: `/portfolio/${id}`,
-					subhead: description ?? '',
+					body: description ?? '',
 					tags: tags ?? [],
 				}),
 			)}

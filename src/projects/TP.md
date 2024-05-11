@@ -1,6 +1,6 @@
 ---
-title: 'T&P Website Redesign'
-description: 'Design and development for The Ohio State University Transportation & Parking Services website'
+title: 'Transportation and Parking Services Website'
+description: "I transformed The Ohio State University's Transportation & Parking Services website from an outdated, hand-coded site to a modern, responsive Drupal site."
 date: '2011-2012'
 tags:
   [
@@ -16,7 +16,7 @@ mainImageAlt: 'Buckeye UX'
 tileImage: '/images/tp/tp-tile.png'
 ---
 
-I transformed the Ohio State University Transportation & Parking Services website from an outdated, hand-coded site to a modern (for 2011), CMS site using Drupal.
+I transformed The Ohio State University's Transportation & Parking Services website from an outdated, hand-coded site to a modern (for 2011), CMS site using Drupal.
 
 By using a content management system, I was able to create a site that was easy to update and maintain by the content owners and subject matter experts instead of relying on a web developer to make updates.
 

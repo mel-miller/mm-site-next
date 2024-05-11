@@ -9,7 +9,7 @@ const meta = {
 	parameters: {},
 	decorators: [
 		(Story) => (
-			<div style={{ maxWidth: '360px' }}>
+			<div style={{ maxWidth: '400px' }}>
 				<Story />
 			</div>
 		),
@@ -23,9 +23,9 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		heading: 'Tile heading',
-		image: 'https://picsum.photos/420/236',
+		heading: 'Transportation and Parking Services Website',
+		image: '/images/tp/tp-garage.png',
 		link: 'https://example.com',
-		subhead: 'Tile subhead',
+		body: "I transformed The Ohio State University's Transportation & Parking Services website from an outdated, hand-coded site to a modern, responsive Drupal site.",
 	},
 };
