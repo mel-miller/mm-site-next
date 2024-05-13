@@ -6,25 +6,20 @@ type AllProjectsData = {
 	id: string;
 	date: string;
 	title: string;
-	description?: string;
-	role?: string;
-	tags?: string[];
 	tileImage?: string;
+	tileSummary?: string;
 }[];
 
 export default function ProjectList() {
 	const allProjectsData: AllProjectsData = getSortedProjectsData();
 	return (
 		<TileGrid
-			tiles={allProjectsData.map(
-				({ id, title, description, tags, tileImage }) => ({
-					heading: title,
-					image: tileImage ?? '',
-					link: `/portfolio/${id}`,
-					body: description ?? '',
-					tags: tags ?? [],
-				}),
-			)}
+			tiles={allProjectsData.map(({ id, title, tileImage, tileSummary }) => ({
+				heading: title,
+				image: tileImage ?? '',
+				link: `/portfolio/${id}`,
+				body: tileSummary ?? '',
+			}))}
 		></TileGrid>
 	);
 }

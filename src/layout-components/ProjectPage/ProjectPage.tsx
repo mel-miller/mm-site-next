@@ -1,8 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-
-import SiteTags from '../../tags/SiteTags';
-
 import { Container } from '../../components/Container/Container';
 
 import './project-page.css';
@@ -32,10 +29,6 @@ interface ProjectPageProps {
 	 * My role in the project.
 	 */
 	role?: string;
-	/**
-	 * The tags for the project.
-	 */
-	tags?: string[];
 	/**
 	 * The title of the project.
 	 */
@@ -79,9 +72,6 @@ export const ProjectPage = ({
 						<span className={`${baseClass}__meta-divider`}>|</span>
 					)}
 					{date && <div className={`${baseClass}__date`}>{date}</div>}
-				</div>
-				<div className={`${baseClass}__tags`}>
-					<SiteTags siteTags={tags || []} />
 				</div>
 			</Container>
 

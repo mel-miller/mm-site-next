@@ -36,6 +36,7 @@ export function getSortedProjectsData() {
 				tags: string[];
 				mainImage: string;
 				mainImageAlt: string;
+				tileSummary: string;
 			}),
 		};
 	});
@@ -89,6 +90,7 @@ export async function getProjectData(id: string) {
 			role: string;
 			mainImage: string;
 			mainImageAlt: string;
+			tileSummary: string;
 		}),
 	};
 }

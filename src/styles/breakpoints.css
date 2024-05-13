@@ -1,5 +1,5 @@
 /* Custom media queries */
-@custom-media --bp-sm (max-width: 640px);
-@custom-media --bp-md (min-width: 641px);
-@custom-media --bp-lg (min-width: 1025px);
+@custom-media --bp-sm (max-width: 768px);
+@custom-media --bp-md (min-width: 769px);
+@custom-media --bp-lg (min-width: 1200px);
 @custom-media --bp-xl (min-width: 1441px);

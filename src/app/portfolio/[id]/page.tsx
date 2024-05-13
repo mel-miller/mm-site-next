@@ -16,7 +16,6 @@ type ProjectData = {
 	title: string;
 	description?: string;
 	role?: string;
-	tags?: string[];
 	contentHtml: string;
 	mainImage: string;
 	mainImageAlt: string;
@@ -47,7 +46,6 @@ export default async function Project({ params }: Props) {
 				date={projectData.date}
 				description={projectData.description}
 				role={projectData.role}
-				tags={projectData.tags}
 				title={projectData.title}
 				mainImage={projectData.mainImage}
 				mainImageAlt={projectData.mainImageAlt}

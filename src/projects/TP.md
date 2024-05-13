@@ -1,6 +1,6 @@
 ---
 title: 'Transportation and Parking Services Website'
-description: "I transformed The Ohio State University's Transportation & Parking Services website from an outdated, hand-coded site to a modern, responsive Drupal site."
+description: 'Website modernization and redesign'
 date: '2011-2012'
 tags:
   [
@@ -10,10 +10,11 @@ tags:
     'drupal',
     'project-management',
   ]
-role: 'Graphic Designer and Web Developer'
+role: 'Graphic Designer, Web Developer, and Project Manager'
 mainImage: '/images/tp/tp-garage.png'
-mainImageAlt: 'Buckeye UX'
-tileImage: '/images/tp/tp-tile.png'
+mainImageAlt: 'Screenshot of Transportation and Parkking services website homepage'
+tileImage: '/images/tp/tp-garage.png'
+tileSummary: "I transformed The Ohio State University's Transportation & Parking Services website.  from an outdated, hand-coded site to a modern, responsive Drupal site."
 ---
 
 I transformed The Ohio State University's Transportation & Parking Services website from an outdated, hand-coded site to a modern (for 2011), CMS site using Drupal.

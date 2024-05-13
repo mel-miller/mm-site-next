@@ -1,6 +1,6 @@
 .mm-tile-grid {
 	display: grid;
-	grid-gap: var(--mm-spacing-3xl);
+	grid-gap: var(--mm-spacing-5xl);
 
 	@media (--bp-md) {
 		grid-template-columns: 1fr 1fr;
