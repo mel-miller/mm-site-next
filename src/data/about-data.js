@@ -62,7 +62,7 @@ export const resumeData = [
 			{
 				companyName: 'Pantheon Systems',
 				jobLocation: 'San Francisco, CA',
-				jobTitle: 'Staff UX Engineer',
+				jobTitle: 'Principal UX Engineer',
 				startDate: 'January 2022',
 				endDate: 'present',
 				description:
