@@ -21,7 +21,7 @@
 .mm-header__site-name {
 	all: unset;
 	color: var(--mm-color-neutral-darkest);
-	font-weight: 600;
+	font-weight: 700;
 	font-size: var(--mm-spacing-xl);
 	font-family: var(--mm-font-family-heading);
 

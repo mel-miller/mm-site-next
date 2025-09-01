@@ -1,5 +1,5 @@
 :root {
-	--mm-color-primary-lightest: #fbfdfc;
+	--mm-color-primary-lightest: #f5faf9;
 	--mm-color-primary-lighter: #e0efee;
 	--mm-color-primary-light: #b5d6da;
 	--mm-color-primary: #067589;
@@ -24,7 +24,7 @@
 	--mm-color-purple: #6a4c93;
 
 	/* purpose colors */
-	--mm-color-background-default: var(--mm-color-neutral-lightest);
+	--mm-color-background-default: var(--mm-color-primary-lightest);
 	--mm-color-background-reverse: var(--mm-color-neutral-darkest);
 	--mm-color-typography-default: var(--mm-color-neutral-darkest);
 	--mm-color-typography-default-secondary: var(--mm-color-neutral-dark);
@@ -83,7 +83,7 @@
 		0px 2px 2px 0px rgba(0, 0, 0, 0.04), 0px 8px 8px -8px rgba(0, 0, 0, 0.04);
 
 	/* typography */
-	--mm-font-family-default: 'proximanova', sans-serif;
+	--mm-font-family-default: 'Nunito Sans', sans-serif;
 	--mm-font-family-secondary: 'Aleo', serif;
 	--mm-font-family-heading: var(--mm-font-family-default);
 	--mm-font-family-body: var(--mm-font-family-default);
